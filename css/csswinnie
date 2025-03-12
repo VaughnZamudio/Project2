@@ -1,1 +1,94 @@
+/* General Style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+#navigation {
+  background-color: #333;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+}
+
+#navigation li {
+  display: inline;
+  margin: 10px;
+}
+
+#navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#navigation a:hover {
+  color: #f1f1f1;
+}
+
+/* Main Heading */
+#main-heading {
+  color: #2c3e50;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+/* Subtitle */
+#sub-heading {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  color: #f39c12;
+}
+
+/* Image (Winnie Cover) */
+#winnie-cover {
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #2c3e50;
+  padding: 5px;
+}
+
+/* Paragraph Text */
+#dialogue {
+  font-size: 18px;
+  margin: 15px 0;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Image (Winnie the Pooh) */
+#winnie-image {
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #2c3e50;
+  padding: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #main-heading {
+    font-size: 28px;
+  }
+
+  #sub-heading {
+    font-size: 18px;
+  }
+
+  #dialogue {
+    font-size: 16px;
+  }
+
+  #winnie-image, #winnie-cover {
+    width: 100%;
+    height: auto;
+  }
+}
 
