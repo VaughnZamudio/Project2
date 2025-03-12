@@ -1,1 +1,161 @@
+/* General Style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+#navigation {
+  background-color: #333;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+}
+
+#navigation li {
+  display: inline;
+  margin: 10px;
+}
+
+#navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#navigation a:hover {
+  color: #f1f1f1;
+}
+
+/* Main Heading */
+#main-heading {
+  color: #444;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+/* Name */
+#name {
+  color: #007bff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Contact Info */
+#contact-info {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+#contact-info li {
+  font-size: 18px;
+  margin: 8px;
+}
+
+/* Education Section */
+#education-heading {
+  color: #4e73df;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* High School and University Information */
+#high-school, #university {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Club Experience */
+#club-heading {
+  color: darkgreen;
+  text-align: center;
+  font-size: 22px;
+}
+
+#club-description {
+  text-align: justify;
+  font-size: 18px;
+  font-style: italic;
+  margin: 10px;
+}
+
+/* Pet Sitting Experience */
+#dog-walker-heading {
+  color: #d45f6e;
+  text-align: center;
+  font-size: 22px;
+}
+
+#dog-walker-description {
+  text-align: justify;
+  font-size: 18px;
+  font-style: italic;
+  margin: 10px;
+}
+
+/* Haunted House Experience */
+#haunted-house-heading {
+  color: #f1c40f;
+  text-align: center;
+  font-size: 22px;
+}
+
+#haunted-house-description {
+  text-align: justify;
+  font-size: 18px;
+  font-style: italic;
+  margin: 10px;
+}
+
+/* Additional Styles: */
+#high-school, #university {
+  background-color: #f0f0f0;
+  border-left: 5px solid #4e73df;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#contact-info li {
+  background-color: #e3e3e3;
+  margin: 5px 0;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+/* Box Shadows */
+#contact-info li, #high-school, #university, #club-description, #dog-walker-description, #haunted-house-description {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bold Text for certain headings */
+#club-heading, #dog-walker-heading, #haunted-house-heading {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Font Size Adjustments for Small Screens */
+@media (max-width: 768px) {
+  #main-heading, #name {
+    font-size: 24px;
+  }
+
+  #education-heading, #club-heading, #dog-walker-heading, #haunted-house-heading {
+    font-size: 20px;
+  }
+
+  #high-school, #university, #club-description, #dog-walker-description, #haunted-house-description {
+    font-size: 16px;
+  }
+}
 
