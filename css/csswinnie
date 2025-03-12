@@ -57,7 +57,10 @@ body {
 }
 
 /* Paragraph Text */
-#dialogue {
+#dialogue1, #dialogue2, #dialogue3, #dialogue4, #dialogue5,
+#dialogue6, #dialogue7, #dialogue8, #dialogue9, #dialogue10,
+#dialogue11, #dialogue12, #dialogue13, #dialogue14, #dialogue15,
+#dialogue16, #dialogue17, #dialogue18 {
   font-size: 18px;
   margin: 15px 0;
   line-height: 1.6;
@@ -82,7 +85,10 @@ body {
     font-size: 18px;
   }
 
-  #dialogue {
+  #dialogue1, #dialogue2, #dialogue3, #dialogue4, #dialogue5,
+  #dialogue6, #dialogue7, #dialogue8, #dialogue9, #dialogue10,
+  #dialogue11, #dialogue12, #dialogue13, #dialogue14, #dialogue15,
+  #dialogue16, #dialogue17, #dialogue18 {
     font-size: 16px;
   }
 
@@ -91,4 +97,5 @@ body {
     height: auto;
   }
 }
+
 
