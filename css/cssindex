@@ -1,1 +1,168 @@
+/* General Style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+#navigation {
+  background-color: #333;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+}
+
+#navigation li {
+  display: inline;
+  margin: 10px;
+}
+
+#navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#navigation a:hover {
+  color: #f1f1f1;
+}
+
+/* Main Heading */
+#main-heading {
+  color: #444;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+/* Name */
+#name {
+  color: #007bff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Intro Paragraph */
+#intro {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Pets Section */
+#pets-heading {
+  color: green;
+  font-size: 24px;
+  text-align: center;
+}
+
+#pets-info {
+  text-align: justify;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#pet-image-description {
+  text-align: center;
+  font-style: italic;
+}
+
+/* Image Style */
+#pet-image {
+  width: 300px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #ccc;
+}
+
+/* Sports Section */
+#sports-heading {
+  color: darkblue;
+  text-align: center;
+}
+
+#sports-info {
+  text-align: justify;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#sports-video-description {
+  text-align: center;
+  font-style: italic;
+}
+
+#sports-video {
+  display: block;
+  margin: 0 auto;
+  width: 480px;
+  height: 640px;
+  border: 5px solid #ccc;
+}
+
+/* Music Section */
+#music-heading {
+  color: #d45f6e;
+  text-align: center;
+  font-size: 24px;
+}
+
+#album-goal, #music-info, #music-taste, #favorite-albums {
+  text-align: justify;
+  padding: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Reading Section */
+#reading-heading {
+  color: #4e73df;
+  font-size: 24px;
+  text-align: center;
+}
+
+#reading-info, #started-reading, #classic-preference, #fantasy-reading, #graphic-novels {
+  text-align: justify;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Add Box Shadow to Images and Videos */
+#pet-image, #sports-video {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Text and Background Styling */
+#music-info, #album-goal, #music-taste, #favorite-albums {
+  background-color: #f0f0f0;
+  border-left: 5px solid #d45f6e;
+  margin-bottom: 20px;
+}
+
+#graphic-novels {
+  background-color: #f0f0f0;
+  border-left: 5px solid #4e73df;
+  margin-bottom: 20px;
+}
+
+/* Responsive Image and Video */
+@media (max-width: 768px) {
+  #pet-image {
+    width: 100%;
+    height: auto;
+  }
+
+  #sports-video {
+    width: 100%;
+    height: auto;
+  }
+}
 
